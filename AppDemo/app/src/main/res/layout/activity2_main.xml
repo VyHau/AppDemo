@@ -1,0 +1,103 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#2196F3"
+android:padding="20dp">
+
+<!-- Back -->
+<TextView
+    android:id="@+id/tvBack_311"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="< Back"
+    android:textColor="#fff"
+    android:textSize="16sp"
+    android:layout_marginBottom="10dp"/>
+
+<!-- Avatar -->
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/avatar"
+    android:layout_gravity="center"
+    android:layout_marginBottom="10dp"/>
+
+<!-- Profile Name -->
+<TextView
+    android:id="@+id/tvProfileName_311"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Profile Name"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="#fff"
+    android:layout_gravity="center"
+    android:layout_marginBottom="20dp"/>
+
+<!-- Friends / Followers -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="125 Friends"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginRight="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="250 Followers"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+</LinearLayout>
+
+<!-- Info (dùng LinearLayout trắng chứa TextView có viền) -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="15dp"
+    android:layout_marginTop="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email : mail@email.com"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone : +99 999 555 222"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skype : me007"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Web : cssauthor.com"
+        android:padding="10dp"
+        android:textColor="#000"/>
+</LinearLayout>
+</LinearLayout>
